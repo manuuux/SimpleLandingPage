@@ -1,6 +1,5 @@
 (function(){
     const titlepreguntas = [...document.querySelectorAll('.preguntas__title')];
-    console.log(titlepreguntas)
 
     titlepreguntas.forEach(question =>{
         question.addEventListener('click', ()=>{
